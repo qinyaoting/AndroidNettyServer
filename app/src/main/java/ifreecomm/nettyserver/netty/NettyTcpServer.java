@@ -29,7 +29,7 @@ import io.netty.util.CharsetUtil;
 public class NettyTcpServer {
 
     private static final String TAG = "NettyTcpServer";
-    private final int port = 1088;
+    private final int port = 8881;
     private Channel channel;
 
     private static NettyTcpServer instance = null;
